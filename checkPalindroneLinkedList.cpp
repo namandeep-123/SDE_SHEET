@@ -1,3 +1,9 @@
+
+/*
+    Time Complexity : O(n/2) + O(n/2)+ O(n/2);
+    Space Complexity : O(1);
+*/
+
 ListNode *reverseLinkedList(ListNode *head)
 {
     ListNode *prev = NULL, *nex = NULL, *cur = head;
